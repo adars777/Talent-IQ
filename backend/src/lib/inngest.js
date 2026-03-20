@@ -1,7 +1,6 @@
 import { Inngest } from "inngest";
 import { connectDB } from "./db.js";
 import User from "../models/User.js";
-import { Profiler } from "react";
 
 export const inngest = new Inngest({ id: "talent-iq" });
 
