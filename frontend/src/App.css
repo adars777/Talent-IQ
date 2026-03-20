@@ -182,3 +182,11 @@
     border-right-color: var(--border);
   }
 }
+
+.sign-btn{
+  width: fit-content;
+  display: flex;
+  margin: 0 auto ;
+  flex-direction: row;
+  justify-content: center;
+}
