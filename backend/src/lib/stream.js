@@ -1,4 +1,4 @@
-import { streamChat } from "stream-chat.js";
+import { StreamChat } from "stream-chat";
 import { ENV } from "./env.js";
 
 const apiKey = ENV.STREAM_API_KEY;
@@ -8,7 +8,7 @@ if (!apiKey || !apiSecret) {
   console.error("SECRET_API_KEY OR SECRET_API_SECRET IS MISSING❗");
 }
 
-export const chatClient = streamChat.getInstance(apiKey, apiSecret);
+export const chatClient = StreamChat.getInstance(apiKey, apiSecret);
 
 // upsert means where we can create and update the data, that's why i gave this name upsertStreamuser
 export const upsertStreamUser = async (userData) => {
