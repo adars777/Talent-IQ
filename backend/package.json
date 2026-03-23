@@ -18,11 +18,7 @@
     "express": "^5.2.1",
     "inngest": "^3.52.7",
     "mongoose": "^9.3.1",
-<<<<<<< HEAD
     "stream-chat": "^9.38.0",
-=======
-    "stream-chat": "^9.24.0",
->>>>>>> dcd5aa2f12a66a836e1bfc23ac834071aa165e40
     "talentiq": "file:.."
   },
   "devDependencies": {
