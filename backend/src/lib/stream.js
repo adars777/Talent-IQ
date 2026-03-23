@@ -1,8 +1,4 @@
 import { StreamChat } from "stream-chat";
-<<<<<<< HEAD
-
-=======
->>>>>>> dcd5aa2f12a66a836e1bfc23ac834071aa165e40
 import { ENV } from "./env.js";
 
 const apiKey = ENV.STREAM_API_KEY;
@@ -31,8 +27,4 @@ export const deleteStreamUser = async (userId) => {
   } catch (error) {
     console.error(`Error deleting Stream User❗ ${error}`);
   }
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> dcd5aa2f12a66a836e1bfc23ac834071aa165e40
